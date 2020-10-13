@@ -1,0 +1,2578 @@
+@media only screen and (max-width : 767px) {   
+
+    $monester: 'Montserrat', sans-serif;
+    $white: #fff;
+    $black: #000;
+    $grey: #a9a9a9;
+    $transition: .5s all ease;
+    $all-size: 26px;
+
+    .ptb-100 {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .pt-100 {
+        padding-top: 50px;
+    }
+    .pt-70 {
+        padding-top: 30px;
+    }
+    .pb-70 {
+        padding-bottom: 30px;
+    }
+    .pt-50 {
+        padding-top: 20px;
+    }
+    .pb-100 {
+        padding-bottom: 50px;
+    }
+    .ptb-70 {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .mean-container .mean-bar {
+        background-color: #31d207;
+        padding: 0;
+    }
+    /*================== HOME Page One =================*/ 
+    /*========*/
+    .col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
+        position: relative;
+        width: 100%;
+        padding-right: 15px !important;
+        padding-left: 15px !important;
+    }
+    /*===========*/
+    .header-top {
+        display: none;
+    }
+    .header-bottom-area {
+        display: none;
+    }
+    /*--End Header --*/ 
+    /*-- Navbar Area --*/ 
+    .mobile-nav.mean-container .mean-nav ul li a.active {
+        color: #31d207;
+    }
+    .mean-container .mean-nav ul li a.mean-expand {
+        color: #31d207;
+    }
+    .mean-container .mean-nav ul li a {
+        color: #000;
+        border-top: 1px solid #31d207;
+    }
+    /*--Home-Banner--*/ 
+    .banner-text {
+        padding-left: 0;
+        text-align: center;
+        padding-bottom: 24px;
+        span {
+            line-height: 11px;
+            font-size: 11px;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+        h2 {
+            font-size: 17px;
+            padding-left: 5px;
+            padding-right: 5px;
+            margin-bottom: 10px;
+        }
+        P {
+            font-size: 13px;
+            margin-bottom: 0;
+        }
+    }
+    .banner-right-text {
+        padding: 0;
+        text-align: center;
+        padding-bottom: 60px;
+        span {
+            line-height: 11px;
+            font-size: 11px;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+        h2 {
+            font-size: 17px;
+            line-height: 23px;
+            margin-bottom: 10px;
+        }
+        P {
+            font-size: 13px;
+            margin-bottom: 0;
+        }
+    }
+    .banner-left {
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    .banner-right {
+        margin-bottom: 20px;
+    }
+    /*-- END banner-Area--*/ 
+    /*------ Lifestyle-Follow-Area ---------*/
+    .lifestyle-area {
+        .news-top {
+            .news-right {
+                ul {
+                    padding-left: 82px;
+                    margin-top: -34px;
+                    display: none;
+                }
+            }
+            .news-left {
+                p {
+                    font-size: 10px;
+                    background: #31d207;
+                    color: #fff;
+                    padding: 5px;
+                    text-align: center;
+                    width: 68px;
+                    font-weight: 600;
+                }
+            }
+        }
+        .lifestyle-text {
+            margin-bottom: 15px;
+            text-align: center;
+            h2 {
+                font-size: 16px;
+                font-weight: 600;
+                color: #000;
+                margin-bottom: 10px;
+            }
+            p {
+                font-size: 14px;
+                max-width: 448px;
+                margin-bottom: 10px;
+            }
+        }
+        .lifestyle-left {
+            margin-bottom: 15px;
+        }
+        ul {
+            li {
+                font-weight: 500;
+                padding-left: 8px;
+            }
+            .gallary-content-list {
+                padding-right: 6px;
+            }
+        }
+        .lifestyle-item {
+            margin-bottom: 20px;
+            .media-body {
+                h2 {
+                    font-size: 10px !important;
+                    color: #000;
+                    font-weight: 600;
+                    max-width: 212px;
+                    margin-top: 0px;
+                    margin-bottom: 0px;
+                    line-height: 14px;
+                }
+                span {
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+    .lifestyle-area .news-top .news-btn .left-btn i {
+        font-size: 10px;
+        padding: 6px 7px;
+        top: -44px;
+        right: 0px;
+    }
+    .lifestyle-area .news-top .news-btn .right-btn i {
+        font-size: 10px;
+        padding: 6px 7px;
+        right: 23px;
+        top: -44px;
+    }
+    .lifestle-bottom-ban {
+        margin-bottom: 30px;
+    }
+    /* Lifestyle-Area */
+
+    /* -- F0llow-Area -- */ 
+    .follow-area {
+        .follow-top {
+            p {
+                font-size: 10px;
+                background: #000;
+                color: #fff;
+                padding: 8px;
+                text-align: center;
+                width: 87px;
+                margin-top: 4px;
+            }
+        }
+    }
+    .follow-text a p {
+        font-size: 13px;
+    }
+   /* -- END F0llow-Area -- */ 
+
+    /* -- Resent-post -- */
+   .resent-post-area {
+        .resent-item {
+            .media-body {
+                h2 {
+                    font-size: 11px;
+                    margin-bottom: -1px;
+                    margin-top: -3px;
+                
+                }
+                p {
+                    font-size: 14px;
+                    margin-bottom: 3px;
+                } 
+                span {
+                    font-size: 10px;
+                }               
+            }
+        }
+    }
+    .follow-area .follow-top::before {
+        top: 30px;
+    }
+   /* ------- END Lifestyle-Follow-Area -------- */
+
+   /* ------ Travel - Fashion Area ------ */
+
+   /*-- Travel- Area --*/ 
+    .travle-area-one {
+       margin-top: -10px;
+    }
+   .Travel-top {
+        &::before {
+            width: 95%;
+        }
+        ul {
+            padding-left: 82px;
+            margin-top: -34px;
+            display: none;
+        }
+        .news-left {
+            p {
+                font-size: 10px;
+                padding: 5px;
+                text-align: center;
+                width: 68px;
+                font-weight: 600;
+            }
+        }
+    }
+    .travel-bt-left{
+        .travel-tex {
+            text-align: center;
+            h2 {
+                font-size: 16px;;
+                margin-bottom: 10px;
+            }
+            p {
+                font-size: 14px;
+                margin-bottom: 12px;
+            }
+        }
+    }
+    .travel-items {
+        .travel-item {
+            h2 {
+                font-size: 12px;
+                margin-top: 0px;
+                margin-bottom: 4px;
+                line-height: 16px;
+            }
+            p {
+                font-size: 11px;
+            }
+        }
+    }
+    .news-area .pagination-area a {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        font-size: 13px;
+    }
+    .Travel-top .news-btn .left-btn i {
+        font-size: 10px;
+        line-height: 13px;
+        padding: 9px 8px;
+        top: -47px;
+        right: 13px;
+    }
+    .Travel-top .news-btn .right-btn i {
+        font-size: 10px;
+        line-height: 15px;
+        padding: 8px 8px;
+        right: 39px;
+        top: -47px;
+    }
+    /*-- END Travel-area-- */
+
+    /* -- Fashion-area-- */
+    .fashion-area {
+        .fashion-sider {
+            .slider-text {
+                text-align: center;
+                padding-top: 118px;
+                padding-bottom: 0px;
+                h2 {
+                    font-size: 15px;
+                    margin-bottom: 5px;
+                    line-height: 20px;
+                }
+                span {
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+    /* ------ END Travel - Fashion Area ------ */
+
+    /* -- Mas- slider -- */
+    .mas-area {
+        .mas-slider {
+            .slider-text {
+                padding-top: 100px;
+                padding-bottom: 90px;
+                h2 {
+                    font-size: 15px;
+                    margin-bottom: 10px;
+                    padding: 0px 10px 0px 10px;
+                    line-height: 21px;
+                }
+                p {
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+    .mas-area {
+        margin-bottom: 50px;
+        margin-top: -35px;
+    } 
+    /* -- END Mas- slider -- */
+
+   /* -- News area -- */
+    .news-area {
+        margin-bottom: 30px;
+        margin-top: 0px;
+        .news-top {
+            &::before {
+                width: 95%;
+            }
+            ul {
+                padding-left: 82px;
+                margin-top: -34px;
+                display: none;
+            }
+            .news-left {
+                p {
+                    font-size: 10px;
+                    padding: 6px;
+                    text-align: center;
+                    width: 105px;
+                    font-weight: 600;
+                }
+            }
+            .news-btn {
+                .right-btn {
+                    i {
+                        font-size: 12px;
+                        line-height: 18px;
+                        right: 20px;
+                        top: -46px;
+                        padding: 5px 8px;
+                    }
+                }
+                .left-btn {
+                    i {
+                        font-size: 12px;
+                        line-height: 18px;
+                        top: -46px;
+                        padding: 5px 8px;
+                        right: -5px;
+                    
+                    }
+                }
+            }
+        }
+        .news-bottom {
+            .nwes-item {
+                margin-bottom: 20px;
+                img {
+                    width: 150px;
+                    height: 145px;
+                }
+                .media-body{
+                    margin-left: 5px;
+                    h2 {
+                        font-size: 15px;
+                        margin-bottom: 15px;
+                    }
+                }
+            }
+        }
+    }
+    .news-bottom .nwes-item .media-body p {
+        font-size: 13px;
+    }
+    .author-two {
+        background-color: #f8f8f8;
+        padding: 20px;
+    }
+    /* -- END News area -- */
+
+    /* --- Footer --- */ 
+    footer {
+        .about {
+            h2 {
+                font-size: 13px;
+                padding: 5px 8px;
+                text-align: center;
+                margin-bottom: 20px;
+                &::before {
+                    width: 287px;
+                }
+            }
+            p {
+                font-size: 13px;
+                color: #a9a9a9;
+                margin-bottom: 20px;
+            }
+        }
+        .social {
+            h2 {
+                font-size: 13px;
+                padding: 5px 8px;
+                text-align: center;
+                margin-bottom: 25px;
+            }
+            ul {
+                margin-bottom: 30px;
+            }
+        }
+        .popler {
+            .popler-top {
+                h2 {
+                    font-size: 13px;
+                    padding: 5px 8px;
+                    text-align: center;
+                    margin-bottom: 20px;
+                    width: 130px;
+                    &::before {
+                        width: 283px;
+                    }                    
+                }
+            }
+        }
+        .instagram {
+            margin-bottom: 25px;
+            .instagram-top {
+                h2 {
+                    font-size: 13px;
+                    padding: 5px 8px;
+                    text-align: center;
+                    margin-bottom: 20px;
+                    width: 168px;
+                    &::before {
+                        width: 282px;
+                    }
+                }
+            }
+        }
+        .categories  {
+            h2 {
+                font-size: 13px;
+                padding: 5px 8px;
+                text-align: center;
+                margin-bottom: 20px;
+                width: 120px;
+                &::before {
+                    width: 289PX;
+                }
+            }
+            p {
+                font-size: 12px;
+            }
+            .text-right {
+                position: relative;
+                top: -36px;
+            }
+            .categries-item {
+                margin-bottom: 5px;
+            }
+        }
+        .copy-area {
+            margin-top: -49px;
+            padding: 30px 0;
+            border-top: none;
+            text-align: center;
+            .footer-right {
+                P {
+                    font-size: 13px;
+                    margin-bottom: 10px;
+                }
+            }
+            .footer-menu {
+                li {
+                    margin-right: 12px;
+                    a {
+                        font-size: 13px;
+                    }
+                }
+            }
+        }
+    }
+    .back-to-top-btn i {
+        background: #29ad07e0;
+        color: #000;
+        height: 40px;
+        width: 40px;
+        line-height: 40px;
+        display: inline-block;
+        text-align: center;
+        font-size: 20px;
+    }
+    footer .copy-area .footer-menu {
+        text-align: center !important;
+    }    
+    /* ==================END HOME PAGE ONE ============================ */
+    .header-bottom-two {
+         display: none;
+    }
+    .header-top-two {
+        display: none;
+    }
+    /*--Home Banner--*/ 
+    .home-banner-two {
+        .home-slide {
+            .slider-bg {
+                height: 350px;
+                margin-top: 100px;
+            }
+            .bg-one {
+                .item-one {
+                    display: none;
+                }
+                .item-two {
+                    display: none;
+                }
+                .item-four {
+                    display: none
+                }
+            }
+            .owl-next { 
+                display: none
+            }
+            .owl-prev {
+                display: none
+            }
+        }
+        .slider-item {
+            margin-top: 160px;
+            padding-left: 15px;
+        }
+        .item-three {
+            p {
+                width: 144px;
+                padding: 5px;
+                font-size: 12px;
+            }
+            h2 {
+                font-size: 18px;
+                line-height: 25px;
+            }
+            span {
+                font-size: 12px;
+                margin-bottom: 5px;
+            }
+        }
+        .bg-two {
+            .item-one {
+                display: none;
+            }
+            .item-three {
+                display: none;
+            }
+            .item-four {
+                display: none
+            } 
+        }
+        .item-two {
+            p {
+                width: 144px;
+                padding: 5px;
+                font-size: 12px;
+            }
+            h2 {
+                font-size: 18px;
+                line-height: 25px;
+            }
+            span {
+                font-size: 12px;
+                margin-bottom: 5px;
+            }
+        }
+        .bg-three {
+            .item-one {
+                display: none;
+            }
+            .item-three {
+                display: none;
+            }
+            .item-two {
+                display: none
+            } 
+            .item-four {
+                p {
+                    width: 144px;
+                    padding: 5px;
+                    font-size: 12px;
+                }
+                h2 {
+                    font-size: 18px;
+                    line-height: 25px;
+                }
+                span {
+                    font-size: 12px;
+                    margin-bottom: 5px;
+                }
+            }
+        }
+    }
+    /*-- END Home- Slider Area --*/
+
+    /*--- About-Area ---*/ 
+    .about-item {
+        margin-bottom: 20px;
+        text-align: center;
+        h2 {
+            font-size: 13px;
+            padding: 5px 0px;
+            margin-bottom: 15px;
+            &::before {
+                width: 274px;
+            }
+        }
+        .h-three {
+            width: 154px;
+        }        
+        img {
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 19px;
+            margin-bottom: 10px;
+        }
+    }
+    .about-bottom .about-bottom-item h2 {
+        font-size: 15px;
+    }
+    .about-bottom .about-bottom-item p {
+        font-size: 13px;
+    }
+    /* END -- END About Area -- */
+
+    /*-- Fashion Lifestyle Area --*/
+    .fashion-area {
+        .fasgion-top {
+            .fashion-right {
+                .left-btn {
+                    i {
+                        background: #31d207;
+                        top: -44px;
+                    }
+                }
+                .right-btn {
+                    i {
+                        background: #31d207;
+                        top: -44px;
+                    }
+                }
+            }
+        }
+        .fashion-bottom {
+            .fashion-item{
+                text-align: center;
+                margin-bottom: 20px;
+            }
+        }
+    }
+    .gallary-text {
+        text-align: center;
+    }
+    .mobile-nav.mean-container .mean-nav ul li a.active {
+        color: #28a745;
+    }
+    .mean-container .mean-nav ul li a {
+        font-size: 13px;
+    }
+    /*====================== END HOME TWO ======================= */
+
+    /*======================  HOME THREE ======================= */
+    .header-top {
+        display: none;
+    }
+    .header-bottom-area {
+        display: none;
+    }
+    /* -- Home Follow Area -- */
+    .home-follow-area {
+        .home-area {
+            padding-top: 0px;
+            padding-bottom: 50px;
+            .left-content {
+                  margin-bottom: 20px;
+                  margin-top: 30px;
+                .left-content-text {
+                    text-align: center;
+                    p {
+                        font-size: 17px;
+                        margin-bottom: 10px;
+                    } 
+                }
+            } 
+        }
+        .right-contant .right-item {
+            text-align: center;
+        }
+        
+    }
+    .news-three {
+        .news-top {
+            .news-btn {
+                .left-btn {
+                    i {
+                        right: 13px;
+                    }
+                }
+                .right-btn {
+                    i {
+                        right: 40px;
+                    }
+                }
+            }
+        }
+    }
+    .creat-area .creat-top p {
+        font-size: 19px;
+        text-align: center;
+    }
+    .creat-area .creat-top ul {
+        text-align: center;
+    }
+    /* -- Video Area -- */
+    .vide-area-three { 
+        margin-bottom: -70px;
+        .news-top {
+            .news-right {
+                ul {
+                    padding-left: 82px;
+                    margin-top: -34px;
+                    display: none;
+                }
+            }
+            .news-left {
+                p {
+                    font-size: 10px;
+                    background: $black;
+                    color: #fff;
+                    padding: 5px;
+                    text-align: center;
+                    width: 81px;
+                    font-weight: 600;
+                }
+            }
+        }
+        .video-bottom {
+            .video-content {
+                height: 300px;
+                margin-bottom: 100px;
+                .video-text {
+                    p {
+                        font-size: 14px;
+                        line-height: 20px;
+                        margin-bottom: 0px;
+                        margin-top: 14px;
+                    }
+                }
+            }
+        }
+    }
+    /* -- END Video Area -- */
+
+    /*-- */ 
+    .technology-three {
+        .news-top {
+            &::before {
+                width: 95%;
+                background-color: #ffb400;
+            }
+            ul {
+                padding-left: 82px;
+                margin-top: -34px;
+                display: none;
+            }
+            .news-left {
+                p {
+                    font-size: 10px;
+                    padding: 5px;
+                    text-align: center;
+                    width: 95px;
+                    font-weight: 600;
+                    background-color: #ffb400;
+                }
+            }
+            .news-btn {
+                .right-btn {
+                    i {
+                        font-size: 12px;
+                        line-height: 18px;
+                        right: 34px;
+                        top: -46px;
+                        padding: 5px 8px;
+                    }
+                }
+                .left-btn {
+                    i {
+                        font-size: 12px;
+                        line-height: 18px;
+                        top: -46px;
+                        padding: 5px 8px;
+                        right: 14px;
+                    
+                    }
+                }
+            }
+        }
+    }
+    .creat-area {
+        padding-top: 50px;
+        padding-bottom: 0px;
+        .creat-left {
+            .creat-item {
+                h2 {
+                    font-size: 13px;
+                    color: #000;
+                    font-weight: 600;
+                    margin-bottom: 3px;
+                }
+            }
+        }
+    }
+    .creat-area .creat-left .creat-item ul li {
+        display: inline-block;
+        font-size: 8px;
+        color: #a9a9a9;
+        font-weight: 500;
+        padding-right: 4px;
+    }
+    /*======================  END HOME THREE ======================= */
+
+    /*======================   HOME FOUR ======================= */ 
+    .header-top-four {
+        display: none;
+    }
+    /*-- Home Slider --*/ 
+    .slider-area {
+        padding-top: 56px;
+        padding-bottom: 50px;
+        .home-slide-four {
+            .owl-prev {
+                right: 35px;
+                top: 59px;
+                width: 30px;
+                height: 30px;
+                line-height: 30px !important;
+                font-size: 13px !important;
+            }
+            .owl-next {
+                position: absolute;
+                right: 1%;
+                top: 59px;
+                width: 30px;
+                height: 30px;
+                line-height: 30px !important;
+                border-radius: 0 !important;
+                font-size: 13px !important;
+            }
+        }
+        .slider-item {
+            margin-top: 40px;
+            h2 {
+                font-size: 18px;
+            }
+            p {
+                font-size: 13px;
+                width: 115px;
+            }
+        }
+        .bg-one {
+            margin-top: 40px;
+        }
+    }
+    .home-four-wrp .gallary .gallary-item {
+        text-align: center;
+        h2 {
+            font-size: 18px;
+        }
+        p {
+            font-size: 14px;
+        }
+    }
+    .video-area {
+        margin-bottom: -70px;
+        .news-top {
+            .news-btn {
+                .right-btn {
+                    i {
+                        font-size: 12px;
+                        line-height: 18px;
+                        right: 28px;
+                        top: -46px;
+                        padding: 5px 8px;
+                    }
+                }
+                .left-btn {
+                    i {
+                        font-size: 12px;
+                        line-height: 18px;
+                        top: -46px;
+                        padding: 5px 8px;
+                        right: 0px;
+                    
+                    }
+                }
+            }
+            .news-right {
+                ul {
+                    padding-left: 82px;
+                    margin-top: -34px;
+                    display: none;
+                }
+            }
+            .news-left {
+                p {
+                    font-size: 10px;
+                    background: $black;
+                    color: #fff;
+                    padding: 5px;
+                    text-align: center;
+                    width: 105px;
+                    font-weight: 600;
+                }
+            }
+        }
+        .video-bottom {
+            .video-content {
+                height: 300px;
+                margin-bottom: 100px;
+                .video-text {
+                    p {
+                        font-size: 14px;
+                        line-height: 20px;
+                        margin-bottom: 0px;
+                        margin-top: 14px;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+    .video-area .video-bottom .video-content a {
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        font-size: 16px;
+    }    
+    /*-- END Video ---*/
+
+    /*-- News --*/ 
+    .home-four-wrp {
+        .news-area {
+            margin-bottom: 20px;
+            .news-top {
+                &::before {
+                    width: 100%;
+                }
+                .news-btn {
+                    .right-btn {
+                        i {
+                            position: absolute;
+                            font-size: 12px;
+                            background: $black;
+                            line-height: 16px;
+                            padding: 8px 8px;
+                            text-align: center;
+                            color: #fff;
+                            bottom: 18px;
+                            right: 28px;
+                        }
+                    }
+                    .left-btn {
+                        i {
+                            position: absolute;
+                            font-size: 12px;
+                            background: $black;
+                            line-height: 16px;
+                            padding: 8px 8px;
+                            text-align: center;
+                            color: #fff;
+                            bottom: 18px;
+                            right: 0;
+                        }
+                    }
+                }
+                .news-right {
+                    ul {
+                        padding-left: 82px;
+                        margin-top: -34px;
+                        display: none;
+                    }
+                }
+                .news-left {
+                    p {
+                        font-size: 10px;
+                        background: $black;
+                        color: #fff;
+                        padding: 5px;
+                        text-align: center;
+                        width: 105px;
+                        font-weight: 600;
+                    }
+                }
+            }
+        }
+    }
+    .home-four-wrp .news-item-two ul .gallary-content-list {
+        padding-right: 13px;
+        padding-left: 0;
+    }
+    .home-four-wrp .news-item-two {
+        text-align: center;
+        h2 {
+            font-size: 18px;
+            color: #000;
+            font-weight: 600;
+            margin-bottom: 11px;
+        }
+    }
+    /*-- END News --*/
+    .follow-four-area {
+        margin-top: -70px;
+    }
+    .follow-area .follow-bottom .follow-icon {
+        width: 99%;
+        min-height: 35px;
+        text-align: left;
+        margin: 2px;
+        border: 1px solid #a9a9a9;
+        margin-bottom: 15px;
+    }
+    /*======================   END HOME FOUR ======================= */
+
+    /*====================== HOME PAGE FIVE ========================*/
+    .slider-five-area {
+        .slider-area {
+            height: 330px; 
+            margin-top: 50px;
+
+        }
+        .slider-text {
+            padding-top: 30px;
+            padding-bottom: 50px;
+            h2 {
+                font-size: 20px;
+                margin-bottom: 15px;
+                margin-top: 13px;
+            }
+            span {
+                font-size: 14px;
+                padding: 4px; 
+            }
+        }
+    }
+        /*-- END Home Slider --*/ 
+
+        /*-- Fashion -- */
+        .fashion-area-five .fashion-top-five .fashion-right-five .right-btn-five i {
+            background: #ff00e4;
+            top: -46px;
+            right: 28px;
+        }
+        .fashion-area-five .fashion-top-five .fashion-right-five .left-btn-five i {
+            background: #ff00e4;
+            top: -46px;
+            right: 0px;
+        }
+        .fashion-area-five .fasgion-top::before {
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 2px;
+            text-align: center;
+            top: 37px;
+        }
+        .gallary-five {
+            .gallary-item {
+                text-align: center;
+            }
+        }
+        
+        .gallary-five .gallary-item h2 {
+            font-size: 17px;
+        }
+
+    /*====================== END HOME PAGE FIVE ========================*/
+    
+    /* =================== Post Area-One ======================== */
+
+    /*--Post-One--*/
+    .post-one-area {
+        .post-one-lft {
+            .post-one {
+                margin-bottom: 20px;
+
+                h2 {
+                    font-size: 17px;
+                    font-weight: 700;
+                    color: #000;
+                    margin-bottom: 10px;
+                }
+                img {
+                    margin-bottom: 18px;
+                }
+                ul {
+                    li {
+                        font-size: 11px;
+                        padding-left: 0px;
+                        padding-right: 5px;
+                        i {
+                            left: -4px;
+                            font-size: 8px;
+                        }
+                    }
+                }
+            }
+        }
+        .post-two {
+            h2 {
+                font-size: 16px;
+                line-height: 21px;
+                margin-bottom: 15px;
+                left: 0;
+            }
+        }
+        /*-- Like --*/
+        .post-one-area {
+            .post-one-lft {
+                .like-area {
+                    .like-unlike {
+                        border-top: 1px solid #a9a9a9;
+                        border-bottom: 1px solid #a9a9a9;
+                        padding: 15px 0px;
+                        margin-bottom: 10px;
+                        &::before {
+                            left: 0;
+                            opacity: 0;
+                        }
+                        a {
+                            p {
+                                top: -26px;
+                                left: 182px;
+                                margin: 0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .post-one-lft {
+            .like-area {
+                .like-co {
+                    img {
+                        width: 130px;
+                    }
+                    .text {
+                        h2 {
+                            font-size: 13px;
+                            color: #000;
+                            margin-top: -16px;
+                            font-weight: 600;
+                            margin-bottom: 8px;
+                        }
+                        p {
+                            font-weight: 400;
+                            margin-bottom: 1px;
+                        }
+                        ul {
+                            li {
+                                a {
+                                    font-size: 10px;
+                                    padding-right: 5px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .coment-slider{
+                &::before {
+                    display: none;
+                }
+                .co-slider-item {
+                    p {
+                        text-align: center;
+                    }
+                    .p-two { 
+                        text-align: center;
+                    }
+                }
+                .owl-prev {
+                    left: 1%;
+                    top: 51px;
+                    font-size: 10px !important;
+                }
+                .owl-next { 
+                    top: 51px;
+                    font-size: 10px !important;
+                }
+            }
+
+            .comment-area {
+                .comment-top {
+                    h2 {
+                        font-size: 12px;
+                        width: 104px;
+                        padding: 6px;
+                    }
+                }
+            }
+            .comment-bottom .like-co .text ul .reply {
+                display: none;
+            }
+            .like-area .like-co .text {
+                padding-top: 13px;
+                padding-left: 10px;
+            }
+        }
+    }
+    .post-one-area .post-one-lft .post-two h2 {
+        font-size: 15px;
+        font-weight: 700;
+        color: #000;
+        margin-bottom: 15px;
+        position: relative;
+        left: 0;
+    }
+    .post-one-area .post-one-lft .post-two ul {
+        margin: 0;
+        padding: 0;
+        position: relative;
+        left: 11px;
+        margin-bottom: 15px;
+    }
+    .post-one-area .post-one-lft .post-two ul li a {
+        font-size: 13px;
+        color: #000;
+        font-weight: 600;
+    }
+    .post-one-area .post-one-lft .post-two span {
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .post-one-area .post-one-lft .post-three p {
+        font-weight: 400;
+        margin-bottom: 30px;
+        font-size: 14px;
+    }
+    .post-one-area .post-one-lft .post-three span {
+        font-size: 14px;
+        font-weight: 400;
+        margin-top: 10px;
+        margin-bottom: 0px;
+    }
+    .post-one-area .post-one-lft .post-three img {
+        margin-bottom: 20px;
+        width: 100%;
+    }
+    .post-one-area .post-one-lft .tags ul li {
+        display: inline-block;
+        padding-right: 0px;
+    }
+    .post-one-area .post-one-lft .tags ul li a {
+        color: #a9a9a9;
+        font-size: 13px;
+    }
+    .post-one-area .post-one-lft .social .facbook {
+        width: 100%;
+        height: 65px;
+        margin-bottom: 15px;
+    }
+    .post-one-area .post-one-lft .social .twitter { 
+        width: 100%;
+        height: 65px;
+        right: 0;
+        margin-bottom: 15px;
+    }
+    .post-one-area .post-one-lft .social .pinterest {
+        width: 100%;
+        height: 65px;
+        right: 0;
+        margin-bottom: 15px;
+    }
+    .post-one-area .post-one-lft .social .pinterest {
+        width: 100%;
+        height: 65px;
+        right: 0;
+    }
+    .post-one-area .post-one-lft .social .google {
+        width: 100%;
+        height: 65px;
+        right: 0;
+    }
+    .post-one-area .post-one-lft .social .social-item::before {
+        display: none;
+    }
+    .post-one-area .post-one-lft .like-area .like-unlike a p {
+        top: 0;
+        left: 0;
+        margin: 0;
+    }
+    .post-one-area .post-one-lft .like-area .like-unlike .like, .unlike {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    /*-- Follow Area ---*/
+    .post-one-area .post-one-lft .post-one p {
+        font-weight: 400;
+        font-size: 14px;
+        margin-top: 5px;
+    }
+    .post-one-area .post-one-lft .post-two p {
+        color: #6c757d;
+        font-weight: 400;
+        margin-bottom: 15px;
+        font-size: 14px;
+    } 
+    /* =================== END Post-One Page ===================== */
+
+    /* =================== Post-Two Page ===================== */
+    .post-two-area {
+        margin-top: 70px;
+        .post-banner {
+            .p-banner-text {
+                h2 {
+                    font-size: 18px;
+                    margin: auto;
+                    left: 0;
+                    right: 0;
+                    max-width: 704px;
+                    line-height: 25px;
+                    font-weight: 700;
+                    color: #fff;
+                    margin-bottom: 5px;
+                    position: relative;
+                }
+            }
+        }
+        .post-one-lft {
+            .reply-area {
+                .reply-top {
+                    h2 {
+                        font-size: 12px;
+                        font-weight: 600;
+                        color: #fff;
+                        width: 99px;
+                        background: #000;
+                        padding: 5px;
+                    }
+                }
+                .contact-form {
+                    .cuatom-btn {
+                        display: inline-block;
+                        background: #000;
+                        color: #fff;
+                        font-size: 13px;
+                        font-weight: 600;
+                        width: 138px;
+                        padding: 9px 5px;
+                        margin-top: 4px;
+                        border-radius: 0 !important;
+                    }
+                }
+            }
+            .related-post-area {
+                .re-post-top {
+                    h2 {
+                        font-size: 13px;
+                        font-weight: 600;
+                        color: #fff;
+                        width: 122px;
+                        background: #000;
+                        padding: 6px;
+                    }
+                }
+                .re-post-bottom {
+                    margin-bottom: 20px;
+                }
+            }
+        }
+    }
+    .post-one-area .post-banner .p-banner-text {
+        padding-top: 80px;
+        padding-bottom: 80px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .post-three-area .post-banner .p-banner-text {
+        text-align: center;
+        padding-top: 80px;
+        padding-bottom: 80px;
+        position: relative;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    /* =================== END Post-two Page ===================== */
+
+    /* =================== Post-Four Page ===================== */
+    .post-four-area {
+        margin-top: 40px;
+        margin-bottom: 20px;
+        .post-one-lft {
+            .post-four {
+                .post-four-text {
+                    padding-top: 100px;
+                    padding-bottom: 70px;
+                    padding-left: 10px;
+                    h2 {
+                        font-size: 17px;
+                        margin-bottom: 9px;
+                        line-height: 24px;
+                    }
+                    P {
+                        font-size: 12px;
+                        margin-bottom: 10px;
+                        width: 134px;
+                        padding: 6px;
+                    }
+                }
+            }
+        }
+        .post-one-lft {
+            .reply-area {
+                .reply-top {
+                    h2 {
+                        font-size: 12px;
+                        font-weight: 600;
+                        color: #fff;
+                        width: 99px;
+                        background: #000;
+                        padding: 5px;
+                    }
+                }
+                .contact-form {
+                    .cuatom-btn {
+                        display: inline-block;
+                        background: #000;
+                        color: #fff;
+                        font-size: 13px;
+                        font-weight: 600;
+                        width: 138px;
+                        padding: 9px 5px;
+                        margin-top: 4px;
+                        border-radius: 0 !important;
+                    }
+                }
+            }
+            .related-post-area {
+                .re-post-top {
+                    h2 {
+                        font-size: 13px;
+                        font-weight: 600;
+                        color: #fff;
+                        width: 122px;
+                        background: #000;
+                        padding: 6px;
+                    }
+                }
+                .re-post-bottom {
+                    margin-bottom: 20px;
+                }
+            }
+        }
+    }
+    .post-one-area .post-one-lft .post-one ul {
+        margin: 0;
+        padding: 0;
+        margin-bottom: 0px;
+    }
+    /* =================== Post-Four Page ===================== */
+
+    /* =================== Post-Five Page ===================== */
+    .post-one-area .post-banner .p-banner-text h2 {
+        font-size: 18px;
+        margin: auto;
+        left: 0;
+        right: 0;
+        max-width: 704px;
+        line-height: 23px;
+        font-weight: 700;
+        color: #fff;
+        margin-bottom: 8px;
+        position: relative;
+    } 
+    /* =================== END Post-Five Page ===================== */
+
+    /* =================== Post-Six Page ===================== */
+    .post-six-area .post-slider .owl-next {
+        right: 8%;
+        top: 78%;
+        width: 30px;
+        height: 30px;
+        line-height: 30px !important;
+        font-size: 15px !important;
+    }
+    .post-six-area .post-slider .owl-prev {
+        width: 30px;
+        height: 30px;
+        line-height: 30px !important;
+        margin: 0 !important;
+        font-size: 15px !important;
+    }
+    /* =================== END Post-Six Page ===================== */
+
+    /* ========================= Category one Area ================== */ 
+    /* -- Home Banner Area -- */
+    .banner-area-six {
+        margin-top: 100px;
+        margin-bottom: 50px;    
+        .banner-text-six {
+            h2 {
+                font-size: 25px;
+                margin-bottom: 10px;
+            }
+            p {
+                font-size: 14px;
+                line-height: 21px;
+                margin-bottom: 0;
+            }
+        }
+        
+    }
+    .post-one-area .post-one-lft {
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+    .category-one-area {
+        .category-one-left {
+            padding-top: 50px;
+            padding-bottom: 30px;
+            .gallery-item {
+                h2 {
+                    font-size: 18px;
+                    margin-bottom: 10px;
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+    .category-one-area {
+        margin-bottom: 0px;
+        margin-top: -30px;
+        .pagination-area a {
+            width: 30px;
+            height: 30px;
+            line-height: 30px;
+            font-size: 14px; 
+        }
+    }
+    .category-one-area { 
+        .follow-ct-one {
+            .follow-top {
+                p {
+                    padding: 7px;
+                }
+            }
+        }
+    }
+    /* ========================= end Category one Area ================== */ 
+
+    /* ========================= Category Two Area ================== */ 
+    .category-one-area .category-one-left .gallery-item ul .gallary-content-list {
+        padding-right: 15px;
+        padding-left: 0;
+    }
+    /* ========================= END Category Two Area ================== */ 
+
+    /* ========================= About Area ================== */ 
+    .about-post-area {
+        margin-top: 0px;
+    }
+    .category-one-area .category-one-left .gallery-item ul li {
+        display: inline-block;
+        font-size: 13px;
+        color: #a9a9a9;
+        font-weight: 500;
+        padding-left: 6px;
+    }
+    /*================ CONTACT PAGE ================= */ 
+    .contact-banner {
+        .contact-text {
+            h2 {
+                font-size: 23px;
+                margin-bottom: 9px;
+            }
+            p {
+                font-size: 14px;
+            }
+        } 
+    }
+    .contact-form-area .reply-area .reply-top h2 {
+        font-size: 13px;
+        font-weight: 600;
+        color: #fff;
+        background: #000;
+        width: 160px;
+        padding: 8px;
+        text-align: center;
+    }
+    .contact-form-area .reply-area .contact-form .cuatom-btn {
+
+        font-size: 13px;
+        width: 148px;
+        padding: 12px;
+        margin-top: 10px;
+        margin-bottom: 30px;
+
+    }
+    .info-area .info-top h2 {
+        font-size: 13px;
+        width: 128px;
+        padding: 7px;
+    }
+    .info-area .contact-item {
+        text-align: center;
+        display: block;
+    }
+    .info-area i {
+        position: unset;
+        text-align: center;
+        left: 0;
+    }
+    .info-area .contact-item {
+        text-align: center;
+        position: unset;
+        left: 0;
+    }
+    .related-post-five-area {
+        .re-post-bottom {
+            .re-post-text {
+                margin-bottom: 20px;
+                text-align: center;
+                p {
+                    font-size: 17px;
+                }
+                ul li {
+                    font-size: 13px;
+                    padding-right: 12px;
+                }
+            }
+        }
+    }
+    .eror-area .eror-text h2 {
+        font-size: 100px;
+        margin-bottom: 20px;
+    }
+    .eror-area .eror-text {
+        text-align: center;
+        padding-top: 0px;
+        padding-bottom: 70px;
+    }
+    .eror-area .eror-text h3 {
+        font-size: 22px;
+        margin-bottom: 15px;
+    }
+    .eror-area .eror-text p {
+        font-size: 14px;
+    }
+    .eror-area .eror-text .eror-btn {
+        font-size: 13px;
+        width: 150px;
+    }
+    .con-social {
+        margin: 0;
+        padding: 0;
+        padding-left: 0;
+        text-align: center;
+    }
+    .con-social li {
+        display: inline-block;
+        padding-right: 0px; 
+    }
+}
+/* ============================================================================ */    
+
+@media only screen and (min-width : 768px) and (max-width : 991px) {     
+
+    .ptb-100 {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+    .pt-100 {
+        padding-top: 70px;
+    }
+    .pt-70 {
+        padding-top: 50px;
+    }
+    .pt-50 {
+        padding-top: 30px;
+    }
+    .pb-70 {
+        padding-bottom: 50px;
+    }
+    .pb-100 {
+        padding-bottom: 170px;
+    }
+    .ptb-70 {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    
+    /*======================= Home Page One ========================== */ 
+    .header-top {
+        margin-top: 58px;
+    }
+    /*------- Banner --*/ 
+    .banner-right img {
+        min-height: 173px;
+    }
+    .banner-right-text {
+        padding-left: 0;
+        text-align: center;
+        padding-bottom: 5px;
+        h2 {
+            font-size: 15px;
+            margin-bottom: 2px;
+        }
+        P {
+            font-size: 12px;
+        }
+    }
+    .banner-text {
+        left: 0;
+        bottom: 80px;
+        padding-left: 0;
+        text-align: center;
+        h2 {
+            font-size: 22px;
+            font-weight: 700;
+            margin-bottom: 12px;
+            padding-left: 6px;
+            padding-right: 6px;
+        }
+        span {
+            padding: 6px;
+            line-height: 13px;
+            margin-bottom: 17px;
+        }        
+    }
+    .banner-right-text span {
+        font-size: 10px;
+        font-weight: 400;
+        margin-bottom: 7px;
+    }
+    .banner-area {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    /*-- END Banner --*/ 
+
+    /*-- Lifestyle --*/ 
+    .lifestyle-area .news-top .news-right ul {
+        padding-left: 100px;
+        padding-top: 12px;
+    }
+    .lifestyle-area .news-top .news-right ul li {
+        padding-left: 5px;
+    }
+    .lifestyle-area .news-top .news-right ul li a {
+        font-size: 11px;
+    }
+    .lifestyle-area .news-top .right-btn i {
+        right: 33px;
+    }
+    .lifestyle-area .news-top .news-btn .left-btn i {
+        font-size: 12px;
+        padding: 8px 8px;
+        right: 0px;
+    }
+    .technology-three .news-top .news-btn .left-btn i {
+        font-size: 12px;
+        padding: 11px 8px;
+        right: 0px;
+    }
+    .mobile-nav.mean-container .mean-nav ul li a.active {
+        color: #31d207;
+    }
+    .lifestyle-item .media-body h2 {
+        font-size: 12px !important;
+        max-width: 212px;
+        margin-top: 4px;
+        margin-bottom: 2px;
+        line-height: 14px;
+    }
+    .lifestyle-item .media-body span {
+        font-size: 12px;
+    }
+    .lifestyle-text h2 {
+        font-size: 20px;
+        line-height: 23px;
+        margin-bottom: 13px;
+    }
+    .lifestyle-left {
+        margin-bottom: 20px;
+    }
+    .lifestyle-bottom-ban {
+        margin-bottom: 45px;
+        margin-top: 45px;
+    }
+    .fas-banner {
+        text-align: center;
+        margin-bottom: 67px;
+    }
+    .travle-area-one {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .Travel-top .news-right ul {
+        padding-left: 100px;
+
+    }
+    .lifestle-bottom-ban {
+        margin-bottom: 40px;
+    }
+    /*======================= Home Page One ========================== */
+
+    /*==================== Home Page Two ====================== */ 
+    .header-bottom-two .header-bottom-left .l-item .search-icon i {
+        font-size: 18px;
+        top: 6px;
+        border: 0;
+        right: 0;
+        left: 171px;
+    }    
+    .header-bottom-two .header-bottom-left .cart {
+        top: 3px;
+        left: 112px;
+    }    
+    /*--Home Banner--*/ 
+    .home-banner-two {
+        .home-slide {
+            .slider-bg {
+                height: 400px;
+                margin-top: 56px;
+            }
+            .bg-one {
+                .item-one {
+                    display: none;
+                }
+                .item-two {
+                    display: none;
+                }
+                .item-four {
+                    display: none
+                }
+            }
+        }
+        .slider-item {
+            margin-top: 126px;
+            padding-left: 0;
+            text-align: center;
+        }
+        .item-three {
+            p {
+                width: 144px;
+                padding: 5px;
+                font-size: 12px;
+                text-align: center;
+                display: inline-block;
+            }
+            h2 {
+                font-size: 27px;
+                line-height: 31px;
+                margin: auto;
+                left: 0;
+                right: 0;
+                max-width: 571px;
+                margin-bottom: 10px;
+            }
+            span {
+                font-size: 12px;
+                margin-bottom: 5px;
+            }
+        }
+        .bg-two {
+            .item-one {
+                display: none;
+            }
+            .item-three {
+                display: none;
+            }
+            .item-four {
+                display: none
+            } 
+        }
+        .item-two {
+            p {
+                width: 144px;
+                padding: 5px;
+                font-size: 12px;
+                text-align: center;
+                display: inline-block;
+            }
+            h2 {
+                font-size: 27px;
+                line-height: 31px;
+                margin: auto;
+                left: 0;
+                right: 0;
+                max-width: 571px;
+                margin-bottom: 10px;
+            }
+            span {
+                font-size: 12px;
+                margin-bottom: 5px;
+            }
+        }
+        .bg-three {
+            .item-one {
+                display: none;
+            }
+            .item-three {
+                display: none;
+            }
+            .item-two {
+                display: none
+            } 
+            .item-four {
+                p {
+                    width: 144px;
+                    padding: 5px;
+                    font-size: 12px;
+                    text-align: center;
+                    display: inline-block;
+                }
+                h2 {
+                    font-size: 27px;
+                    line-height: 31px;
+                    margin: auto;
+                    left: 0;
+                    right: 0;
+                    max-width: 571px;
+                    margin-bottom: 10px;
+                }
+                span {
+                    font-size: 12px;
+                    margin-bottom: 5px;
+                }
+            }
+        }
+    }
+    /*-- END Home- Slider Area --*/
+
+    /*-- About --*/ 
+    .about-item {
+        margin-bottom: 20px;
+        h2::before {
+            width: 317px;
+        }
+    }
+    .home-three {
+        padding-top: 0;
+        .home-area {
+            padding-top: 20px;
+            padding-bottom: 40px;
+        }
+    }
+    /*============ END Home two ============*/ 
+
+    /*============ Home Page Four ============*/ 
+    .header-top-four {
+        padding-top: 25px;
+        padding-bottom: 25px;
+        margin-top: 56px;
+        margin-bottom: -76px;
+    }
+    /*============ END Home Page Four ============*/ 
+    /*--home slider--*/
+    .slider-area .slider-item {
+        padding-left: 0;
+        padding-top: 181px;
+        padding-right: 0;
+        text-align: center
+    }
+    .slider-area .slider-item h2 {
+        font-size: 19px;
+        margin: auto;
+        left: 0;
+        right: 0;
+        max-width: 336px;
+        margin-bottom: 10px;
+    }
+    .slider-area p {
+        display: inline-block;
+    }
+    /*--END Slider*/ 
+    /*-- Video --*/
+    .video-area {
+        .news-top .news-left p {
+            font-size: 13px;
+            background: #000;
+            color: #fff;
+            padding: 8px;
+            text-align: center;
+            width: 123px;
+            font-weight: 600;
+        }
+    }
+    .home-four-wrp {
+        .video-area .news-top .news-right ul {
+            padding-left: 77px;
+            padding-top: 10px;
+        }
+    }
+    .home-four-wrp .gallary .gallary-item {
+        text-align: center;
+    }
+    .news-area .news-top .news-right ul {
+        padding-left: 102px;
+    }
+    /*============ END Home Four ========== */ 
+    /*============ Home Five ========== */ 
+    .header-bottom-five {
+        border-bottom: 0;
+        margin-top: 59px;
+        margin-bottom: -44px;
+    }
+    .slider-five-area .slider-text h2 {
+        line-height: 38px;
+    }
+    .slider-five-area .slider-area {
+        height: 430px;
+    }
+
+    .header-bottom-five .header-bottom-left .cart {
+        top: 3px;
+        left: 56px;
+    }
+    .header-bottom-five .header-bottom-left .bar-icon-five {
+        position: relative;
+        left: 99px;
+        top: 9px;
+    }        
+    /*============ END Home Five ========== */ 
+
+    /*====== Post Page One =====*/ 
+    .post-one-area {
+        .post-one-lft {
+            .post-one{
+                img {
+                    margin-bottom: 20px;
+                    margin-top: -144px;
+                }
+                h2 {
+                    font-size: 21px;
+                    line-height: 26px;
+                    margin-bottom: 13px;
+                }
+            }
+            .post-two {
+                h2 {
+                    font-size: 19px;
+                    left: 0px;
+                }
+            }
+        }
+    }
+    
+    .post-two-follow .post-two-top {
+        margin-top: -96px !important;
+    }
+    .post-three-follow .post-two-top {
+        margin-top: 52px;
+    }
+    .fashion-area .fashion-sider .slider-text {
+        padding-top: 70px;
+        padding-bottom: 0px;
+    }
+    
+    /*--tag--*/ 
+    .post-one-area .post-one-lft .social .social-item {
+        
+        text-align: center;
+        width: 136px;
+        height: 38px;
+        padding: 8px;
+        position: unset;
+    }
+
+    .post-one-area {
+        .post-one-lft {
+            .social {
+                .social-item {
+                    text-align: center;
+                    width: 100%;
+                    height: 63px;
+                    padding: 8px;
+                    position: unset;
+                    margin-bottom: 10px;
+                    &::before {
+                        display: none;
+                        
+                    } 
+                }
+            }
+            .like-area {
+                .like-co {
+                    .text {
+                        padding-left: 15px;
+                        padding-top: 0px;
+                        h2 {
+                            font-size: 16px;
+                            margin-top: -16px;
+                            margin-bottom: 18px;
+                        }
+                        p {
+                            margin-bottom: 8px;
+                        }
+                        ul {
+                            margin-bottom: 5px;
+                            li {
+                                a {
+                                    font-size: 10px;
+                                    padding-right: 5px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }   
+    /*-- Unlike-Like --*/ 
+    .post-one-area {
+        .post-one-lft {
+            .like-area {
+                .like-unlike {
+                    padding: 17px 0px;
+                    a {
+                        p {
+                            font-size: 14px;
+                            top: -25px;
+                            left: 211px;
+                        }
+                    }
+                }
+            }
+            .coment-slider{
+                &::before {
+                    display: none;
+                }
+                .co-slider-item {
+                    p {
+                        text-align: center;
+                    }
+                    .p-two { 
+                        text-align: center;
+                    }
+                }
+                .owl-prev {
+                    left: 1%;
+                    top: 51px;
+                    font-size: 10px !important;
+                }
+                .owl-next { 
+                    top: 51px;
+                    font-size: 10px !important;
+                }
+            }
+
+            .comment-bottom .like-co .text ul .reply {
+                display: none;
+            }
+        }
+    }
+    /*-- Like --*/
+    /*====== END Post Page One =====*/ 
+
+    /*========== Post Page Two ======== */ 
+    .post-follow-two {
+        margin-top: 145px;
+    }
+    .post-three-top {
+        margin-top: 56px;
+    }
+    .post-fouur-top {
+        margin-top: 50px;
+    }
+    .post-three-area {
+       margin-top: 32px;
+    }
+    .post-two-area {
+        margin-top: 30px;
+    }
+    .post-four-area {
+        margin-top: 0px;
+    }
+    .post-five-area {
+        margin-top: 30px;
+    }
+    .post-two-follow {
+        .follow-bottom {
+            .follow-icon {
+                i {
+                    font-size: 14px;
+                    padding: 9px 12px;
+                    top: 5px;
+                }
+            }
+        }
+        .follow-text {
+            a .p-flw {
+                text-align: right;
+                font-size: 12px;
+                padding-right: 18px;
+            }
+        }
+        a {
+            p {
+                font-weight: 600;
+                color: #000;
+                margin: 0;
+                font-size: 12px;
+                line-height: 0;
+            }
+        }
+    }
+    .post-one-area {
+        .post-one-lft .post-one p {
+            font-weight: 400;
+        }
+        .re-post-bottom {
+            margin-bottom: 20px;
+        }
+    }
+    
+    .post-one-area .post-one-lft .post-two p {
+        font-weight: 400;
+    }
+    .post-one-area .post-one-lft .post-two span {
+        font-weight: 400;
+    }
+    .post-one-area .post-one-lft .post-three p {
+        font-weight: 400;
+    }
+    .post-one-area .post-one-lft .post-three span {
+        font-weight: 400;
+    }
+    .post-five-area .post-one-lft .like-area-five .like-unlike a p {
+        font-size: 14px;
+        top: -22px;
+        left: 152px;
+    }
+    .post-five-area .post-one-lft .social .social-item {
+        text-align: center;
+        width: 100%;
+        height: 42px;
+        padding: 10px 0px 9px 20px;
+        position: unset;
+        margin-bottom: 10px;
+    }
+    .related-post-five-area .re-post-text p {
+        font-size: 13px;
+        margin-bottom: 5px;
+        line-height: 18px;
+    }
+    .related-post-five-area .re-post-text ul li {
+        font-size: 10px;
+        font-weight: 400;
+        padding-right: 10px;
+    }
+    /*================== Contact Page =====================*/ 
+    .contactarea {
+        margin-top: 25px;
+        margin-bottom: 50px;
+    }
+    .contact-banner .contact-text {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .info-area p {
+        font-size: 11px;
+        color: #a9a9a9;
+        margin-bottom: 10px;
+    }
+    .con-social {
+        margin: 0;
+        padding: 0;
+        padding-left: 20px;
+        margin-top: -5px;
+        margin-bottom: 0px;
+    }
+    .con-social {
+        margin: 0;
+        padding: 0;
+        padding-left: 0;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        text-align: center;
+    }
+    .map-area {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .contact-form-area .reply-area .reply-top h2 {
+        font-size: 13px;
+        font-weight: 600;
+        width: 150px;
+    }
+    .info-area .info-top h2 {
+        font-size: 13px;
+        width: 135px;
+        padding: 8px;
+    }
+    .contact-form-area .reply-area .contact-form .cuatom-btn {
+        font-weight: 600;
+        width: 151px;
+        padding: 12px 7px;
+        margin-top: 0px;
+    }
+    /*-- Footer --*/ 
+    footer .about h2 {
+        font-size: 13px;
+        padding: 6px 12px;
+        width: 100px;
+        margin-bottom: 20px;
+    }
+    footer .popler .popler-top h2 {
+        font-size: 13px;
+        padding: 5px 9px;
+        width: 121px;
+        margin-bottom: 17px;
+    }
+    footer .social h2 {
+        font-size: 13px;
+        padding: 5px 13px;
+        width: 117px;
+        font-weight: 600;
+        margin-bottom: 30px;
+    }
+    footer .instagram .instagram-top h2 {
+        font-size: 13px;
+        padding: 6px 13px;
+        width: 154px;
+        font-weight: 600;
+        margin-bottom: 25px;
+    }
+    footer .categories h2 {
+        font-size: 13px;
+        padding: 5px 9px;
+        width: 112px;
+        font-weight: 600;
+        margin-bottom: 25px;
+    }
+    .eror-area .eror-text {
+        margin-top: -90px;
+        padding-bottom: 70px;
+    }
+    .eror-area .eror-text h2 {
+        font-size: 120px;
+        font-weight: 700;
+        color: #bab9b9;
+        margin-bottom: 77px;
+    }
+    .mean-container .mean-bar {
+        background-color: #31d207f5;
+        padding: 0;
+    }
+    /*============== About Area =====================*/ 
+    .about-post-area {
+        margin-top: 130px;
+        .follow-area {
+            margin-top: -100px;
+        }
+    }
+    /*============== END About Area =====================*/
+
+    /*================= Category-Two =============*/ 
+    .banner-area-six {
+        margin-top: 30px;
+    }
+}
+/* ====================================================== */
+
+@media only screen and (min-width : 992px) and (max-width : 1199px) {      
+
+    .banner-left {
+        img {
+            min-height: 552px;
+        }
+    }
+    /*--- Footer -----*/ 
+    footer .categories h2::before {
+      width: 214PX;
+    }
+
+    footer .categories h2 {
+        font-size: 13px;
+        padding: 8px 8px;
+        width: 103px;
+        font-weight: 600;
+        margin-bottom: 35px;
+    }
+    footer .instagram .instagram-top h2 {
+        font-size: 13px;
+        padding: 8px 11px;
+        width: 144px;
+        font-weight: 600;
+    }
+    footer .instagram .instagram-top h2::before {
+        height: 2px;
+        left: 0px;
+        width: 211PX;
+    }
+    footer .popler .popler-top h2 {
+        font-size: 13px;
+        padding: 8px 9px;
+        width: 123px;
+    }
+    footer .popler .popler-top h2::before {
+        width: 207PX;
+    }
+    footer .about h2 {
+        font-size: 13px;
+        width: 96px;
+    }
+    footer .about h2::before {
+        width: 204PX;
+    }
+    .lifestyle-area .news-top .news-right ul {
+        padding-left: 27px;
+    }
+    .Travel-top .news-right ul {
+        padding-left: 27px;
+    }
+    .travle-area-one {
+        margin-top: 35px;
+    }
+    .news-area .news-top .news-right ul {
+        padding-left: 27px;
+    }
+    .header-bottom-two .header-bottom-left .cart {
+        left: 185px;
+    }
+    .header-bottom-two .header-bottom-left .l-item .search-icon i {
+        top: 3px;
+        right: -248px;
+    }
+
+    .about-item h2::before {
+        width: 273px;
+    }    
+    .about-item .h-three {
+        width: 165px;
+    }
+    .fashion-area .fashion-bottom .fashion-item .fashion-text ul .fashion-list {
+        padding-right: 14px;
+        padding-left: 0;
+    }
+    .fashion-area .fashion-bottom .fashion-item .fashion-text ul li {
+        font-size: 12px;
+        padding-left: 3px;
+    }
+    .fashion-area .fashion-bottom .fashion-item .fashion-text p {
+        font-size: 16px;
+    }
+
+    .vide-area-three .video-bottom .video-content .video-text p {
+        font-weight: 600;  
+    }
+    .home-three .right-contant .right-item ul .right-content-list {
+        padding-right: 15px;
+        padding-left: 0;
+    }
+    .video-area .news-top .news-right ul {
+        margin: 0;
+        padding: 0;
+        padding-left: 51px;
+    }
+    .technology-three .news-top .news-right ul {
+        padding-left: 77px;
+    }
+    .nav-area-four {
+        .main-nav nav ul {
+            padding-left: 19px;
+        }
+        .side-nav .search-icon i {
+            font-size: 18px;
+            top: -20px;
+            font-weight: 600;
+            right: -6px;
+        }
+        .side-nav ul li .cart {
+            right: 15px;
+        } 
+        .main-nav nav .navbar-nav .nav-item a {
+            margin-left: 15px;
+            margin-right: 11px;
+            font-size: 15px;
+        }   
+        .main-nav nav .navbar-nav .nav-item a i {
+            font-size: 13px;
+            right: -4px;
+        }    
+    }
+    .header-bottom-five .header-bottom-left .cart {
+        left: 155px;
+    }
+    .header-bottom-five .header-bottom-left .l-item .search-icon {
+        font-size: 18px;
+        top: 8px;
+        left: -22px;
+    }
+    .header-bottom-five {
+        .header-bottom-left {
+            .bar-icon-five {
+                position: relative;
+                left: 195px;
+                top: 12px;
+                i {
+                    font-size: 22px;
+                }
+            }
+        }
+    }
+    .post-one-area .post-one-lft .coment-slider::before {
+        left: 297px;
+    }
+
+
+
+
+
+} 
+
+
+
+
+
+
+
+
+
+
